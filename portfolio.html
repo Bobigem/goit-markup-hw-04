@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!----Хедер проставить ссылки-->
+    <header class="header">
+        <div class="container header-container">
+                <nav class="header-nav">
+                    <a class="header-logo" href="./index.html">Web<span class="header-logo-part">Studio</span> </a>
+                    <ul class="header-menu">
+                        <!---Ссылка "Студия" должна вести на новую страницу-->
+                        <li class="menu-item">
+                            <a class="menu-item-link active current" href="./index.html">Студия</a>
+                        </li>
+                        <!---Ссылка "Портфолио" должна вести на новую страницу-->
+                        <li class="menu-item">
+                            <a class="menu-item-link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link" href="">Контакты</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                <!---Ссылка "Контакты" ведет в футер-->
+                <ul class="contacts">
+                    <li class="contacts-item">
+                        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+        </div> 
+    </header>  
+    <main> 
+        <section class="section">
+            <div class="container">
+                <h2 class="our-services">Our-servives</h2>
+                    <!--Filter buttons-->
+                    <ul class="filter">
+                        <li class="filter-list">
+                            <button class="filter-button" type="button">Все</button>
+                        </li>
+                        <li class="filter-list">
+                            <button class="filter-button"  type="button">Веб-сайты</button>
+                        </li>
+                        <li class="filter-list">
+                            <button class="filter-button"  type="button">Приложения</button>
+                        </li>
+                        <li class="filter-list">
+                            <button class="filter-button"  type="button">Дизайн</button>
+                        </li>
+                        <li class="filter-list">
+                            <button class="filter-button" type="button">Маркетинг</button>
+                        </li>
+                    </ul>
+                    <!--Services-->
+                    <ul class="services-p2">
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2  img" src="images/portfolio/img1.jpg" alt="Ноутбук" width="370" height="294">
+                                <div class="services-descr"> 
+                                    <h3 class="services-title-p2">Технокряк</h3>
+                                    <p class="services-text-p2">Веб-сайт</p>
+                                </div>      
+                             </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img2.jpg" alt="Баскетбол" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Постер New Orlean vs Golden Star</h3>
+                                    <p class="services-text-p2">Дизайн</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img3.jpg" alt="Ресторан" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Ресторан Seafood</h3>
+                                    <p class="services-text-p2">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img4.jpg" alt="Наушники" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Проект Prime</h3>
+                                    <p class="services-text-p2">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img5.jpg" alt="Коробка" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Проект Boxes</h3>
+                                    <p class="services-text-p2">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img6.jpg" alt="Монитор" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Inspiration has no Borders</h3>
+                                    <p class="services-text-p2">Веб-сайт</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img7.jpg" alt="Книга" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Издание Limited Edition</h3>
+                                    <p class="services-text-p2">Дизайн</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img8.jpg" alt="Лейбл" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Проект LAB</h3>
+                                    <p class="services-text-p2">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="services-list-p2">
+                            <a class="services-link-p2" href="">
+                                <img class="services-img-p2 img" src="images/portfolio/img9.jpg" alt="Комьпьютер" width="370" height="294">
+                                <div class="services-descr">
+                                    <h3 class="services-title-p2">Growing Business</h3>
+                                    <p class="services-text-p2">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+    </main> 
+        
+        
+        <!----Footer---->
+        <footer class="footer">
+                <div class="container">
+                    <a class="footer-logo" href="./index.html">Web<span class="footer-logo-part">Studio</span></a>
+                    <address class="footer-address"> 
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a class="footer-item-map" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">г. Киев, пр-т Леси Украинки, 26</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a class="footer-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li>
+                                <a class="footer-item last" href="tel:+380961111111">+38 096 111 11 11</a>                    
+                            </li>
+                        </ul>  
+                    </address>  
+                </div>  
+            </footer>
+    
+</body>
